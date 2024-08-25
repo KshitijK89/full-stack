@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        div.title > h1 {
+            text-shadow: 8px 4px 5px white;
+            font-family: 'Russo One', sans-serif;
+            font-size: 45px;
+            display: inline;
+            position: relative;
+            bottom: 45px;
+        }
+
+        #cat {
+            font-family: 'Russo One', sans-serif;
+            margin-bottom: 30px;
+        }
+
+        .nameTag {
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 135px;
+            font-size: 20px;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+            background: #fff;
+            border-radius: 8px;
+            text-align: center;
+            padding: 16px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            padding: 1px 16px;
+            text-align: center;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: black;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 16px;
+            }
+        }
+
+        /* Additional Styles for Card Images */
+        .card img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card h2 {
+            margin-top: 15px; /* Space between image and name */
+            font-size: 20px;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            color: #333; /* Adjust color as needed */
+
+        }
+        i{
+          height: 40px;
+         width: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="about-section">
+        <h1>CONTACT US</h1>
+        <h4>FOLLOW US ON</h4>
+        <div class="social-links">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+    </div>
+    <h1 style="text-align: center;">FOR MORE DETAILS</h1>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <h2>NEHA</h2>
+                <p><u><a href="mailto:nehagowda627@gmail.com">nehagowda627@gmail.com</a></u></p>
+                <p><u><a href="tel:8073870781">8073870781</a></u></p>
+               
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                
+                <h2>KSHITIJ</h2>
+                <p><u><a href="mailto:kshithu911@gmail.com">kshithu911@gmail.com</a></u></p>
+                <p><u><a href="tel:8073550468">8073550468</a></u></p>
+                
+               
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                
+                <h2>RAHUL</h2>
+                <p> <u> <a href="mailto:rahulssrivastava21@gmail.com">rahulssrivastava21@gmail.com</a></u></p>
+                <p><u><a href="tel:9902964782">9902964782</a></u></p>
+                
+               
+            </div>
+        </div>
+        <!-- You can add more team members here with similar structure -->
+    </div>
+</body>
+
+</html>

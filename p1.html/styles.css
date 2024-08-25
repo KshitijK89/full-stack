@@ -1,0 +1,703 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('background.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    color: #1d1b1b; /* Optional: Change text color for better readability on dark backgrounds */
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    /* padding-top: 50%; */
+}
+
+.visualization {
+    display: flex;
+    justify-content: center;
+}
+
+/* canvas { */
+    /* border: 2px solid #282c34; */
+    /* background-color: white; */
+/* } */
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#startButton {
+    background-color: #01050f;
+    color: rgb(11, 4, 53);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#startButton:hover {
+    background-color: #020d21;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.visualization {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: 2px solid #282c34;
+    background-color: white;
+}
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Button Styles */
+#startButton {
+    background-color: #7aab69; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+#startButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#startButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #282c34;
+}
+
+.controls {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#algorithmSelect {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#startButton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+#startButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#startButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
+
+.visualization {
+    display: flex;
+    justify-content: center;
+}
+/* 
+canvas {
+    border: 2px solid #282c34;
+    background-color: white;
+} */
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* styles.css */
+
+/* Ensure h1 is bold and has appropriate styling */
+header h1 {
+    font-weight: bold; /* Ensures the text is bold */
+    font-size: 2em; /* Adjust font size as needed */
+    margin: 0;
+}
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); /* Adjust based on header and footer height */
+    margin-bottom: 20px;
+}
+
+.controls h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+   
+}
+
+#algorithmSelect {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0; /* Add vertical margin */
+    background-color: #02881b;
+    color: #f1f1f1;
+   
+}
+
+#startButton {
+    background-color: #139918; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+#startButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#startButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
+
+.visualization {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+}
+
+.algorithm-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Optional border for better visibility */
+    border-radius: 8px; /* Optional rounded corners */
+    transition: transform 0.3s; /* Smooth zoom effect */
+}
+
+.algorithm-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.menu-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 250px; /* Adjust width as needed */
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hidden */
+    background-color: #333;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.side-nav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    background-color: #575757;
+}
+
+.side-nav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.side-nav .closebtn:hover {
+    color: #f1f1f1;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); /* Adjust based on header and footer height */
+    margin-bottom: 20px;
+}
+
+.controls h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+#algorithmSelect {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0; /* Add vertical margin */
+}
+
+
+
+
+/* Reset some default styles */
+body, h1, h2, p, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    overflow: auto;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.side-nav a {
+    display: block;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.side-nav a:hover {
+    background: #575757;
+}
+
+.side-nav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-details, .contact-form {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h2, .contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact-details a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form .form-group button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form .form-group button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+.containerr {
+    background-color: #24262b;
+    padding: 20px 0px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+  }
+  .container3 {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .container3 ul {
+    list-style: none;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0px 15px;
+  }
+  .footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 9px;
+  }
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+  }
+
+
+
+  

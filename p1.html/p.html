@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hamburger Menu Icon -->
+    <div class="menu-toggle" id="menuToggle">
+        <img src="https://static.vecteezy.com/system/resources/previews/021/190/402/non_2x/hamburger-menu-filled-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.jpg"
+            alt="Menu" class="menu-icon">
+    </div>
+
+    <!-- Sliding Navigation Menu -->
+    <nav class="side-nav" id="sideNav">
+        <button class="closebtn" id="closeBtn">&times;</button>
+        <a href="index.html">Home</a>
+        <a href="about us.html">About</a>
+        <a href="contact.html">Contact</a>
+        
+    </nav>
+
+    <header>
+        <h1>Sorting Visualizer</h1>
+        <p>Explore how different sorting algorithms work with real-time visualizations.</p>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <!-- Add content or leave empty if not needed -->
+        </section>
+        <section class="controls">
+            <h1>CHOOSE SORTING ALGORITHM:</h1>
+            <label for="algorithmSelect"><h2>Sorting Algorithm:</h2></label>
+            <select id="algorithmSelect">
+                <option value="bubble">Bubble Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="merge">Merge Sort</option>
+            </select>
+            <button id="startButton">Start</button>
+        </section>
+        <section class="visualization">
+            <!-- <canvas id="myCanvas"></canvas> -->
+        </section>
+    </main>
+    <footer>
+        <!-- <p>Created by Kshitij and Neha.</p> -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
